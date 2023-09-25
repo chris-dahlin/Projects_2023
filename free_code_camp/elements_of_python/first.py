@@ -8,17 +8,30 @@
 # print(x)
 # song_lyrics()
 
-def greet(lang):
-    if lang == 'es':
-        print('Hola')
-    elif lang == 'fr':
-        print('Bonjour')
-    else:
-        print('Hello')
+
+# def greet(lang):
+#     if lang == 'es':
+#         print('Hola')
+#     elif lang == 'fr':
+#         print('Bonjour')
+#     else:
+#         print('Hello')
 
 
-greet('en')
-greet('es')
-greet('fr')
+# greet('en')
+# greet('es')
+# greet('fr')
 
-language = greet(input('Enter your language: '))
+# language = greet(input('Enter your language: '))
+
+# def greet():
+#     return ("Hello,")
+
+
+# print(greet(), "Glenn")
+# print(greet(), "Sally")
+
+
+# big = max('Hello, World!')
+# print(big)
+# print(max('Hello, World!'))
