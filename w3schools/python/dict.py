@@ -13,19 +13,19 @@
 
 
 car = {
-"brand": "Ford",
-"model": "Mustang",
-"year": 1964
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964
 }
 
 x = car.keys()
 
-print(x) #before the change
+print(x)  # before the change
 
 car["color"] = "white"
 car["weight"] = "1000kg"
 
-print(x) #after the change
+print(x)  # after the change
 
-c = car["weight"]
-print(c)
+w = car["weight"]
+print(w)
