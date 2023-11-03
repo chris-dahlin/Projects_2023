@@ -70,45 +70,47 @@
 
 # print(f"Your final bill is: ${total}.")
 
-print("The Love Calculator is calculating your score...")
-name1 = input()  # What is your name?
-name2 = input()  # What is their name?
-# 🚨 Don't change the code above 👆
-# Write your code below this line 👇
+# print("The Love Calculator is calculating your score...")
+# name1 = input()  # What is your name?
+# name2 = input()  # What is their name?
+# # 🚨 Don't change the code above 👆
+# # Write your code below this line 👇
 
-# For Love Scores less than 10 or greater than 90, the message should be:
+# # For Love Scores less than 10 or greater than 90, the message should be:
 
-# "Your score is *x*, you go together like coke and mentos."
-# For Love Scores between 40 and 50, the message should be:
+# # "Your score is *x*, you go together like coke and mentos."
+# # For Love Scores between 40 and 50, the message should be:
 
-# "Your score is *y*, you are alright together."
-# Otherwise, the message will just be their score. e.g.:
+# # "Your score is *y*, you are alright together."
+# # Otherwise, the message will just be their score. e.g.:
 
-# "Your score is *z*."
-names_added = name1 + name2
+# # "Your score is *z*."
+# names_added = name1 + name2
 
-names_lowered = names_added.lower()
+# names_lowered = names_added.lower()
 
-t = names_lowered.count("t")
-r = names_lowered.count("r")
-u = names_lowered.count("u")
-e = names_lowered.count("e")
+# t = names_lowered.count("t")
+# r = names_lowered.count("r")
+# u = names_lowered.count("u")
+# e = names_lowered.count("e")
 
-first_digit = t + r + u + e
+# first_digit = t + r + u + e
 
-l = names_lowered.count("l")
-o = names_lowered.count("o")
-v = names_lowered.count("v")
-e = names_lowered.count("e")
+# l = names_lowered.count("l")
+# o = names_lowered.count("o")
+# v = names_lowered.count("v")
+# e = names_lowered.count("e")
 
-second_digit = l + o + v + e
+# second_digit = l + o + v + e
 
-total = int(str(first_digit) + str(second_digit))
+# total = int(str(first_digit) + str(second_digit))
 
 
-if (total < 10) or (total > 90):
-    print(f"Your score is {total}, you go together like coke and mentos.")
-elif (total >= 40) and (total <= 50):
-    print(f"Your score is {total}, you are alright together.")
-else:
-    print(f"Your score is {total}.")
+# if (total < 10) or (total > 90):
+#     print(f"Your score is {total}, you go together like coke and mentos.")
+# elif (total >= 40) and (total <= 50):
+#     print(f"Your score is {total}, you are alright together.")
+# else:
+#     print(f"Your score is {total}.")
+
+# Test Commit
