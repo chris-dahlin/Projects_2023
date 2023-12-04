@@ -62,3 +62,17 @@
 
 # var = "3.8.5"
 # print("Python version: " + var)
+
+# var = 100
+# var = 200 + 300
+# print(var)
+
+# john = 1
+# mary = 2
+# adam = 3
+
+# print(john, mary, adam, sep=",")
+
+# total_apples = john + mary + adam
+
+# print(total_apples)
