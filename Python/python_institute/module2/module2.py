@@ -85,15 +85,27 @@
 # print(miles, "miles is", round(miles_to_kilometers, 2), "kilometers")
 # print(kilometers, "kilometers is", round(kilometers_to_miles, 2), "miles")
 
-x = 0
-x = float(x)
-y = 3 * x ** 3 - 2 * x ** 2 + 3 * x - 1
-print("y =", y)
-x = 1
-x = float(x)
-y = 3 * x ** 3 - 2 * x ** 2 + 3 * x - 1
-print("y =", y)
-x = -1
-x = float(x)
-y = 3 * x ** 3 - 2 * x ** 2 + 3 * x - 1
-print("y =", y)
+# x = 0
+# x = float(x)
+# y = 3 * x ** 3 - 2 * x ** 2 + 3 * x - 1
+# print("y =", y)
+# x = 1
+# x = float(x)
+# y = 3 * x ** 3 - 2 * x ** 2 + 3 * x - 1
+# print("y =", y)
+# x = -1
+# x = float(x)
+# y = 3 * x ** 3 - 2 * x ** 2 + 3 * x - 1
+# print("y =", y)
+
+#this program computes the number of seconds in a given number of hours
+# this program has been written two days ago
+
+a = 2 # number of hours
+seconds = 3600 # number of seconds in 1 hour
+
+print("Hours: ", a) #printing the number of hours
+# print("Seconds in Hours: ", a * seconds) # printing the number of seconds in a given number of hours
+
+#here we should also print "Goodbye", but a programmer didn't have time to write any code
+#this is the end of the program that computes the number of seconds in 3 hour
