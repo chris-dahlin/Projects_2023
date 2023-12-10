@@ -101,14 +101,62 @@
 #this program computes the number of seconds in a given number of hours
 # this program has been written two days ago
 
-a = 2 # number of hours
-seconds = 3600 # number of seconds in 1 hour
+# a = 2 # number of hours
+# seconds = 3600 # number of seconds in 1 hour
 
-print("Hours: ", a) #printing the number of hours
-# print("Seconds in Hours: ", a * seconds) # printing the number of seconds in a given number of hours
-print("Seconds in Hours: ", a * seconds)
-#here we should also print "Goodbye", but a programmer didn't have time to write any code
-print("Goodbye")
-#this is the end of the program that computes the number of seconds in 3 hours
-a = 3
-print("Seconds in Hours: ", a * seconds)
+# print("Hours: ", a) #printing the number of hours
+# # print("Seconds in Hours: ", a * seconds) # printing the number of seconds in a given number of hours
+# print("Seconds in Hours: ", a * seconds)
+# #here we should also print "Goodbye", but a programmer didn't have time to write any code
+# print("Goodbye")
+# #this is the end of the program that computes the number of seconds in 3 hours
+# a = 3
+# print("Seconds in Hours: ", a * seconds)
+
+
+# print("Tell me anything...")
+# anything = input()
+# print("Hmm...", anything, "... Really?")
+
+# anything = input("Enter a number: ")
+# something = anything ** 2.0
+# print(anything, "to the power of 2 is", something)
+
+# fnam = input("May I have your first name, please? ")
+# lnam = input("May I have your last name, please? ")
+# print("Thank you.")
+# print("\nYour name is " + fnam + " " + lnam + ".")
+
+# print("+" + 10 * "-" + "+")
+# print(("|" + " " * 10 + "|\n") * 5, end="")
+# print("+" + 10 * "-" + "+")
+# Output
+# +----------+
+# |          |
+# |          |
+# |          |
+# |          |
+# |          |
+# +----------+
+
+# leg_a = float(input("Input first leg length: "))
+# leg_b = float(input("Input second leg length: "))
+# print("Hypotenuse length is " + str((leg_a**2 + leg_b**2) ** .5))
+
+a = float(input("Please input A: "))
+# input a float value for variable a here
+
+b = float(input("Please input B: "))
+# input a float value for variable b here
+
+
+# output the result of addition here
+print("A + B = ", a + b)
+# output the result of subtraction here
+print("A - B = ", a - b)
+# output the result of multiplication here
+print("A * B = ", a * b)
+# output the result of division here
+print("A / B = ", a / b)
+
+print("\nThat's all, folks!")
