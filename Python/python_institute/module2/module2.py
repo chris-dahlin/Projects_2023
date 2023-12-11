@@ -143,20 +143,27 @@
 # leg_b = float(input("Input second leg length: "))
 # print("Hypotenuse length is " + str((leg_a**2 + leg_b**2) ** .5))
 
-a = float(input("Please input A: "))
-# input a float value for variable a here
+# a = float(input("Please input A: "))
+# # input a float value for variable a here
 
-b = float(input("Please input B: "))
-# input a float value for variable b here
+# b = float(input("Please input B: "))
+# # input a float value for variable b here
 
 
-# output the result of addition here
-print("A + B = ", a + b)
-# output the result of subtraction here
-print("A - B = ", a - b)
-# output the result of multiplication here
-print("A * B = ", a * b)
-# output the result of division here
-print("A / B = ", a / b)
+# # output the result of addition here
+# print("A + B = ", a + b)
+# # output the result of subtraction here
+# print("A - B = ", a - b)
+# # output the result of multiplication here
+# print("A * B = ", a * b)
+# # output the result of division here
+# print("A / B = ", a / b)
 
-print("\nThat's all, folks!")
+# print("\nThat's all, folks!")
+
+hour = int(input("Starting time (hours): "))
+mins = int(input("Starting time (minutes): "))
+dura = int(input("Event duration (minutes): "))
+
+# Write your code here.
+print((hour+(mins+dura)//60)%24,":",(mins+dura)%60)
