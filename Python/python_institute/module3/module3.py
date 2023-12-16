@@ -88,10 +88,47 @@
 # # Print the result.
 # print("The largest number is:", largest_number)
 
-flower = input("What is your favorite flower?")
+# flower = input("What is your favorite flower?")
 
-if flower == "Spathiphyllum":
-    print("Yes - Spathiphyllum is the best plant ever!")
+# if flower == "Spathiphyllum":
+#     print("Yes - Spathiphyllum is the best plant ever!")
+# else:
+#     print("No, I want a big Spathiphyllum!")
+
+
+# name = input("Enter flower name: ")
+
+# if name == "Spathiphyllum":
+#     print("Yes - Spathiphyllum is the best plant ever!")
+# elif name == "spathiphyllum":
+#     print("No, I want a big Spathiphyllum!")
+# else:
+#     print("Spathiphyllum! Not", name + "!")
+
+
+# flower = input("Enter flower name: ")
+
+# if flower == "Spathiphyllum":
+#     print("Yes - Spathiphyllum is the best plant ever!")
+# elif flower == "spathiphyllum":
+#     print("No, I want a big Spathiphyllum!")
+# else:
+#     print("Spathiphyllum! Not", flower + "!")
+
+
+income = float(input("Enter the annual income: "))
+
+if income <= 85528:
+        tax = 0.18 * income - 556.02
 else:
-    print("No, I want a big Spathiphyllum!")
+    tax = 14839.02 + 0.32 * (income - 85528)
+    
+# print("The tax is: ", max(tax, 0))  # Ensure that the tax is not negative
+
+tax = round(tax, 0)
+print("The tax is:", tax, "thalers")
+# # Example usage:
+# citizen_income = float(input("Enter the citizen's income in thalers: "))
+# tax_due = calculate_tax(citizen_income)
+# print(f'The tax due is: {tax_due:.2f} thalers')
 
