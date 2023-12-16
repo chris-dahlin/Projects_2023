@@ -116,19 +116,46 @@
 #     print("Spathiphyllum! Not", flower + "!")
 
 
-income = float(input("Enter the annual income: "))
+# income = float(input("Enter the annual income: "))
 
-if income <= 85528:
-        tax = 0.18 * income - 556.02
-else:
-    tax = 14839.02 + 0.32 * (income - 85528)
+# if income <= 85528:
+#         tax = 0.18 * income - 556.02
+# else:
+#     tax = 14839.02 + 0.32 * (income - 85528)
     
-# print("The tax is: ", max(tax, 0))  # Ensure that the tax is not negative
+# # print("The tax is: ", max(tax, 0))  # Ensure that the tax is not negative
 
-tax = round(tax, 0)
-print("The tax is:", tax, "thalers")
-# # Example usage:
-# citizen_income = float(input("Enter the citizen's income in thalers: "))
-# tax_due = calculate_tax(citizen_income)
-# print(f'The tax due is: {tax_due:.2f} thalers')
+# tax = round(tax, 0)
+# print("The tax is:", tax, "thalers")
+# # # Example usage:
+# # citizen_income = float(input("Enter the citizen's income in thalers: "))
+# # tax_due = calculate_tax(citizen_income)
+# # print(f'The tax due is: {tax_due:.2f} thalers')
 
+
+# year = int(input("Enter a year: "))
+
+# if year < 1582:
+# 	print("Not within the Gregorian calendar period")
+# else:
+# 	if year % 4 != 0:
+# 		print("Common year")
+# 	elif year % 100 != 0:
+# 		print("Leap year")
+# 	elif year % 400 != 0:
+# 		print("Common year")
+# 	else:
+# 		print("Leap year")
+
+
+# x = int(input("input an x value:"))
+
+# if x > 5:  # True
+#     if x == 6:  # False
+#         print("nested: x == 6")
+#     elif x == 10:  # True
+#         print("nested: x == 10")
+#     else:
+#         print("nested: else")
+# else:
+#     print("else")
