@@ -242,17 +242,22 @@
 # else:
 #     print("You haven't entered any number.")
 
-n = 0
+# n = 0
 
-while n != 3:
-    print(n)
-    n += 1
-else:
-    print(n, "else")
+# while n != 3:
+#     print(n)
+#     n += 1
+# else:
+#     print(n, "else")
 
-print()
+# print()
 
-for i in range(0, 3):
-    print(i)
-else:
-    print(i, "else")
+# for i in range(0, 3):
+#     print(i)
+# else:
+#     print(i, "else")
+
+var = 17
+var_right = var >> 1
+var_left = var << 2
+print(var, var_left, var_right)
