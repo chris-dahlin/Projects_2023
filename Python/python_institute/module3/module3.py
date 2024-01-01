@@ -257,7 +257,27 @@
 # else:
 #     print(i, "else")
 
-var = 17
-var_right = var >> 1
-var_left = var << 2
-print(var, var_left, var_right)
+# var = 17
+# var_right = var >> 1
+# var_left = var << 2
+# print(var, var_left, var_right)
+
+# break - example
+
+print("The break instruction:")
+for i in range(1, 6):
+    if i == 3:
+        break
+    print("Inside the loop.", i)
+print("Outside the loop.")
+
+
+# continue - example
+
+print("\nThe continue instruction:")
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print("Inside the loop.", i)
+print("Outside the loop.")
+
